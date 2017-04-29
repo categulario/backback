@@ -14,6 +14,6 @@ Backend for mapmap
 
 * install everything listed in the Tecnology section above
 * `git clone`
-* create database in postgresql
-* add postgis extension to created database
-* run `play run` inside the repo
+* create database in postgresql (https://wiki.archlinux.org/index.php/PostgreSQL#Create_your_first_database.2Fuser)
+* add postgis extension to created database (https://wiki.archlinux.org/index.php/PostGIS#Installing_PostGIS_Extension)
+* run `play run` inside the repo, this will create the tables
