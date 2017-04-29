@@ -3,7 +3,7 @@
 application.uploadDataDirectory=public/data/uploads
 application.exportDataDirectory=public/data/exports
 
-application.name=transit-wand
+application.name=backback
 
 # Application mode
 # ~~~~~
@@ -95,7 +95,7 @@ date.format=yyyy-MM-dd
 # db=postgres://user:pwd@host/database
 #
 # If you need a full JDBC configuration use the following :
-db.url=jdbc:postgresql://127.0.0.1/transit_wand
+db.url=jdbc:postgresql://127.0.0.1/dbname
 db.driver=org.postgresql.Driver
 db.user=postgres
 
