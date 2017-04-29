@@ -4,7 +4,7 @@ Backend for mapmap
 
 ## Tecnology
 
-* Java
+* Java 1.7 (if you upgrade to java 8 this will happen: http://stackoverflow.com/questions/26480213/java-8-spliterator-iterator-collection-and-default-implemenations-in-interf)
 * Play framework 1.2.5 https://playframework.com/documentation/1.2.x/home
 
 ## Configure and develop
