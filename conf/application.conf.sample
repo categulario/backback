@@ -27,6 +27,7 @@ application.secret=nFRENUd67kA00sXUCsn40G0Fd7NSgXzA8YBGXLvyYc2S4ZtBMEmnkhzL45zvJ
 # Date format
 # ~~~~~
 date.format=yyyy-MM-dd
+
 # date.format.fr=dd/MM/yyyy
 
 # Server configuration
@@ -97,6 +98,7 @@ date.format=yyyy-MM-dd
 db.url=jdbc:postgresql://127.0.0.1/transit_wand
 db.driver=org.postgresql.Driver
 db.user=postgres
+
 #
 # Connections pool configuration :
 # db.pool.timeout=1000
@@ -116,6 +118,7 @@ db.user=postgres
 #
 # Specify the custom JPA dialect to use here (default to guess):
 jpa.dialect=org.hibernatespatial.postgis.PostgisDialect
+
 #
 # Specify the ddl generation pattern to use. Set to none to disable it 
 # (default to update in DEV mode, and none in PROD mode):
