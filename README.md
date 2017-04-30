@@ -1,6 +1,6 @@
 # backback
 
-Backend for mapmap
+Backend for mapmap, forked from https://github.com/conveyal/transit-wand
 
 ## Tecnology
 
