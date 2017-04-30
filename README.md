@@ -21,4 +21,4 @@ Backend for mapmap, forked from https://github.com/conveyal/transit-wand
 
 ## Contributing
 
-See CONTRIBUTING.md
+See [CONTRIBUTING.md](CONTRIBUTING.md)
