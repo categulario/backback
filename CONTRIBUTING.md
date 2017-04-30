@@ -1,5 +1,7 @@
 # Cómo contribuir
 
+[![](https://openclipart.org/image/800px/svg_to_png/278845/git-flow.png)](https://openclipart.org/detail/278845/git-opensource-workflow)
+
 * Crea un fork del proyecto y clónalo. Añade el repositorio original como un remoto de nombre upstream (`git remote add upstream git@github.com:XalapaJS/backback.git`)
 * En tu entorno local crea un branch descriptivo del feature o bugfix que quieres aportar. Un branch por cada cosa que quieras aportar.
 * Has push de tu branch a `origin` (`git push -u origin branch`) y crea un pull request a master describiendo lo que estás aportando.
