@@ -18,3 +18,7 @@ Backend for mapmap, forked from https://github.com/conveyal/transit-wand
 * add postgis extension to created database (https://wiki.archlinux.org/index.php/PostGIS#Installing_PostGIS_Extension)
 * copy `conf/application.conf.sample` to `conf/application.conf` and edit the DB connection params
 * run `play run` inside the repo, this will create the tables
+
+## Contributing
+
+See CONTRIBUTING.md
