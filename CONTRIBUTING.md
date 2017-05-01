@@ -2,10 +2,13 @@
 
 [![](https://openclipart.org/image/800px/svg_to_png/278845/git-flow.png)](https://openclipart.org/detail/278845/git-opensource-workflow)
 
-* Crea un fork del proyecto y clónalo. Añade el repositorio original como un remoto de nombre upstream (`git remote add upstream git@github.com:XalapaJS/backback.git`)
-* En tu entorno local crea un branch descriptivo del feature o bugfix que quieres aportar. Un branch por cada cosa que quieras aportar.
-* Has push de tu branch a `origin` (`git push -u origin branch`) y crea un pull request a master describiendo lo que estás aportando.
-* Si tus cambios son aceptados o si hay cambios nuevos en `upstream` has `git pull upstream master`. Si tienes branches activos has `git checkout branch && git rebase master`
+1. Crea un fork del proyecto a tu cuenta de github.
+2. Clona tu fork a tu entorno de desarrollo y añade un remoto llamado upstream con la dirección del repositorio original (`git remote add`).
+3. En tu entorno local crea un branch descriptivo del feature o bugfix que quieres aportar. Un branch por cada cosa que quieras aportar.
+4. Tira código como poseído, luego has push de tu branch a tu fork.
+5. Crea un pull request a master describiendo lo que estás aportando.
+6. Si tus cambios son aceptados o si hay cambios nuevos en `upstream` cambia a tu branch local `master` y has `git pull upstream master`.
+7. Si tienes branches activos has `git checkout branch && git rebase master`, esto va a mantener tus branches siempre actualizadas.
 
 ## Sobre los nombres de los branch
 
